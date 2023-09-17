@@ -5,7 +5,7 @@ import { testIds } from '@/constants/testIds.constant'
 import { Layout } from '@/components'
 
 describe('<Layout>', () => {
-  it('should render', () => {
+  it('should render the Layout component', () => {
     render(
       <Layout>
         <h1>Hello World!</h1>

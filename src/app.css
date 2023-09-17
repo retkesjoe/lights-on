@@ -1,0 +1,20 @@
+/* TODO: use styled-component insead of *.css files. It's an example for testing purposes only */
+.hello-world {
+  position: relative;
+  display: inline-block;
+}
+.hello-world:before {
+  content: '';
+  position: absolute;
+  width: 0px;
+  bottom: 0;
+  left: 50%;
+  height: 2px;
+  background: black;
+  transition: all 1s;
+}
+.hello-world:hover:before {
+  left: 0;
+  width: 100%;
+  transition: all 0.5s;
+}

@@ -11,13 +11,35 @@
     SplashScreen:
       ☐ New game button
       ☐ Nickname
-      ☐ Hall of fame (without serverside)
+      ☐ Hall of fame (firstly without serverside)
       DifficultySelector:
         ☐ Left arrow
         ☐ Right arrow
         ☐ Selected difficulty
         ☐ Animation between switching difficulty
+    LoadingScreen:
+      ☐ ProgressBar
+      ☐ X seconds loading and initializing the game itself
+    HallOfFame:
+      ☐ Store the clicks of solving the game. (localstorage)
+      ☐ Store the time of solving the game. (localstorage)
+      ☐ Create a screen for the hall of fame and show the best of 10
+      ☐ Tab function to show separatly like all, best time, least clicks.
 
-  ☐ Unit tests (testing library)
-  ☐ E2E tests (cypress)
-  ☐ Setup SonarQube
+  StoryBook:
+    ☐ Layout story
+    ☐ SplashScreen story
+    ☐ DifficultySelector story
+    ☐ Tile story
+
+  Unit tests:
+    ✔ Install dependencies for unit testing @done(23-09-17 22:16)
+    ☐ Unit tests for all the components (testing library)
+
+  E2E tests:
+    ☐ Instal and setup cypress
+    ☐ E2E tests for all interactive components
+
+  Code improvement:
+    ☐ Install SonarQube
+    ☐ Setup SonarQube
