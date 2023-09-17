@@ -14,7 +14,16 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["testing-library__jest-dom"]
+    "types": ["testing-library__jest-dom"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@constants/*": ["src/constants/*"],
+      "@types/*": ["src/types/*"],
+      "@mocks/*": ["src/mocks/*"],
+      "@features/*": ["src/features/*"],
+      "@components/*": ["src/components/*"]
+    }
   },
   "include": ["src", "config/jest/fileTransformer.cjs"],
   "references": [{ "path": "./tsconfig.node.json" }]

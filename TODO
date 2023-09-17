@@ -1,3 +1,23 @@
 # TODO list for the Lights on game:
-  ☐ Create docs
-  
+  ☐ Create docs!
+
+  State management:
+    ☐ Difficulty
+    ☐ Board size (5x5, 10x10, 25x25)
+
+  Features:
+    ☐ Playing infinite looped audio in the background.
+    ☐ Player is able to start a game -> SplasScreen
+    SplashScreen:
+      ☐ New game button
+      ☐ Nickname
+      ☐ Hall of fame (without serverside)
+      DifficultySelector:
+        ☐ Left arrow
+        ☐ Right arrow
+        ☐ Selected difficulty
+        ☐ Animation between switching difficulty
+
+  ☐ Unit tests (testing library)
+  ☐ E2E tests (cypress)
+  ☐ Setup SonarQube
