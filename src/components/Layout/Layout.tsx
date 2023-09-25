@@ -13,5 +13,13 @@ import { testIds } from '@/constants/testIds.constant'
  */
 export const Layout = (props: PropsWithChildren) => {
   const { children } = props
-  return <div data-testid={testIds.layout}>{children}</div>
+
+  return (
+    <div
+      className="w-full h-screen dark:bg-slate-800 relative flex"
+      data-testid={testIds.layout}
+    >
+      {children}
+    </div>
+  )
 }

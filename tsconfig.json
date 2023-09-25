@@ -14,7 +14,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["testing-library__jest-dom"],
+    "types": ["testing-library__jest-dom", "cypress", "vite/client"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
@@ -22,9 +22,14 @@
       "@types/*": ["src/types/*"],
       "@mocks/*": ["src/mocks/*"],
       "@features/*": ["src/features/*"],
-      "@components/*": ["src/components/*"]
+      "@components/*": ["src/components/*"],
+      "@atoms/*": ["src/components/atoms/*"],
+      "@molecules/*": ["src/components/molecules/*"],
+      "@organisms/*": ["src/components/organisms/*"],
+      "@layouts/*": ["src/components/layouts/*"],
+      "@pages/*": ["src/components/layouts/*"]
     }
   },
-  "include": ["src", "config/jest/fileTransformer.cjs"],
+  "include": ["src", "config/jest/fileTransformer.cjs", "cypress"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

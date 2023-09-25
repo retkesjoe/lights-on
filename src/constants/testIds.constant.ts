@@ -4,4 +4,5 @@ export const testIds = {
   gridRow: 'grid-row',
   gridItem: 'grid-item',
   splashScreen: 'splash-screen',
+  button: 'button',
 }
