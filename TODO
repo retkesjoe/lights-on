@@ -37,9 +37,13 @@
     ☐ Unit tests for all the components (testing library)
 
   E2E tests:
-    ☐ Instal and setup cypress
+    ✔ Install and setup cypress @done(23-09-25 21:18)
     ☐ E2E tests for all interactive components
 
   Code improvement:
     ☐ Install SonarQube
     ☐ Setup SonarQube
+
+  Ideas:
+    ☐ Make the game in 3D first with a (3x3x3) cube.
+    ☐ Vercel deployment
