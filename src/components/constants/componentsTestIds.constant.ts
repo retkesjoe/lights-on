@@ -4,4 +4,5 @@ export const componentsTestIds = {
   heading3: 'heading3',
   heading4: 'heading4',
   heading5: 'heading5',
+  tile: 'tile',
 }

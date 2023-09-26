@@ -41,8 +41,10 @@ const STailwindClasses: Record<
  * `data-testids`. It can be `h1...5`
  *
  * @param {IHeading} props - It inherits methods and properties from the
- * HTMLElement interface. In addition a variant property to define the type of
- * the Element
+ * HTMLHeadingElement interface. In addition a variant property to define the
+ * type of the Element.
+ * @param {THeadingVariants} [props.variant='h1'] - Variant of the heading element.
+ * It's optional and the default value is h1.
  *
  * @example
  * ```
