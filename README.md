@@ -56,9 +56,10 @@ best Testing lib on the market. Did I mentioned Kent C. Dodds :) ;)
 Cypress is a next generation front end testing tool built for the modern web.
 It's a great tool. I'll test the interaction based components with Cypress.
 
-[Learn more about Cypress ->] (https://www.cypress.io/)
+[Learn more about Cypress ->](https://www.cypress.io/)
 
 # Lights on
 
 Differently from the original game, the main goal is to turn on all the lights.
-[Lights Out game](<https://en.wikipedia.org/wiki/Lights_Out_(game)>)
+
+[Lights Out game ->](<https://en.wikipedia.org/wiki/Lights_Out_(game)>)
